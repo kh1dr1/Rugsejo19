@@ -6,6 +6,7 @@ int main()
 {
     int choice = 0;
     bool isRunning = true;
+    int num1, num2, sum;
 
     while (isRunning)
     {
@@ -22,6 +23,12 @@ int main()
         {
         case 1:
             cout << "Jus pasirinkote opcija #1\n";
+            cout <<"Iveskite pirma skaiciu"<<endl;
+            cin >> num1;
+            cout <<"Iveskite antra skaiciu"<<endl;
+            cin >> num2;
+            sum = num1 + num2;
+            cout <<"Ivestu dvieju skaiciu suma "<<sum <<endl;
             break;
         case 2:
             cout << "Jus pasirinkote opcija #2\n";
