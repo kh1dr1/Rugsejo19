@@ -35,6 +35,8 @@ int main()
 
     if (average >= 5)
         cout << "Vidurkis teigiamas." << endl;
+    else
+        cout << "Vidurkis yra neigiamas" << endl;
 
     return 0;
 }
