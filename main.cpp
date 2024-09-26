@@ -7,7 +7,7 @@ int main()
     // Uzduotis 1-2
     /*
     cout << "Uzduotis 1-2:\n";
-    
+
     int studentMark = 0;
     int sum = 0;
     int count = 0;
@@ -50,20 +50,57 @@ int main()
     cout << "Iveskite savo egzamino pazymi (1-10):";
     cin >> exam_grade;
 
-    if (exam_grade > 10)
-        cout << "Ivestas per didelis skaicius! Bandykite is naujo.\n";
-    else if (exam_grade < 1)
-        cout << "Ivestas per mazas skaicius! Bandykite is naujo.\n";
-    else if (exam_grade == 10)
+    switch (exam_grade)
+    {
+    case 10:
         cout << "Puiku!\n";
-    else if (exam_grade >= 9)
+        break;
+    case 9:
         cout << "Labai gerai\n";
-    else if (exam_grade >= 7)
+        break;
+    case 8:
         cout << "Gerai\n";
-    else if (exam_grade >= 5)
+        break;
+    case 7:
+        cout << "Gerai\n";
+        break;
+    case 6:
         cout << "Patenkinamai\n";
-    else if (exam_grade < 5)
+        break;
+    case 5:
+        cout << "Patenkinamai\n";
+        break;
+    case 4:
         cout << "Egzaminas neislaikytas\n";
+        break;
+    case 3:
+        cout << "Egzaminas neislaikytas\n";
+        break;
+    case 2:
+        cout << "Egzaminas neislaikytas\n";
+        break;
+    case 1:
+        cout << "Egzaminas neislaikytas\n";
+        break;
+    default:
+        cout << "Ivestas netinkamas skaicius... Bandykite is naujo.\n";
+        break;
+    }
+
+    // if (exam_grade > 10)
+    //     cout << "Ivestas per didelis skaicius! Bandykite is naujo.\n";
+    // else if (exam_grade < 1)
+    //     cout << "Ivestas per mazas skaicius! Bandykite is naujo.\n";
+    // else if (exam_grade == 10)
+    //     cout << "Puiku!\n";
+    // else if (exam_grade >= 9)
+    //     cout << "Labai gerai\n";
+    // else if (exam_grade >= 7)
+    //     cout << "Gerai\n";
+    // else if (exam_grade >= 5)
+    //     cout << "Patenkinamai\n";
+    // else if (exam_grade < 5)
+    //     cout << "Egzaminas neislaikytas\n";
 
     return 0;
 }
