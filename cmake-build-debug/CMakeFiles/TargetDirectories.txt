@@ -1,3 +1,0 @@
-C:/Users/s058048/CLionProjects/Rugsejo19/cmake-build-debug/CMakeFiles/Rugsejo19.dir
-C:/Users/s058048/CLionProjects/Rugsejo19/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/s058048/CLionProjects/Rugsejo19/cmake-build-debug/CMakeFiles/rebuild_cache.dir
