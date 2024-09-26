@@ -1,5 +1,17 @@
 # Files to be ignored by Git
+# Updated for my needs as I am using different IDEs at once
 
-# Executables & binaries
+# Exclude CLion IDE specific folder
+.idea/
+
+# CMake build artifacts folder (for CLion IDE)
+cmake-build-*/
+
+# VS Code local settings
+.vscode/
+
+# Binaries
 *.exe
+*.obj
 *.o
+*.bin
