@@ -6,6 +6,7 @@ int main()
 {
     // Uzduotis 1-2
     cout << "1-as (2-as) uzduotis:\n";
+    cout << "1-as (2-as) uzduotis:\n";
 
     int studentMark = 0;
     int sum = 0;
