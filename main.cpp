@@ -5,8 +5,7 @@ using namespace std;
 int main()
 {
     // Uzduotis 1-2
-    /*
-    cout << "Uzduotis 1-2:\n";
+    cout << "1-as (2-as) uzduotis:\n";
 
     int studentMark = 0;
     int sum = 0;
@@ -41,10 +40,9 @@ int main()
         cout << "Vidurkis teigiamas." << endl;
     else
         cout << "Vidurkis yra neigiamas" << endl;
-    */
 
     // Uzduotis 3-4
-    cout << "Uzduotis 3-4:\n";
+    cout << "\n3-as (4-as) uzduotis:\n";
 
     int exam_grade = 0;
     cout << "Iveskite savo egzamino pazymi (1-10):";
@@ -101,6 +99,15 @@ int main()
     //     cout << "Patenkinamai\n";
     // else if (exam_grade < 5)
     //     cout << "Egzaminas neislaikytas\n";
+
+    cout << "\n5-as uzduotis:\n";
+    int odd_sum = 0;
+    for (int i = 1; i <= 20; i++)
+    {
+        if (i % 2 != 0)
+            odd_sum += i;
+    }
+    cout << "Nelyginiu skaiciu suma: " << odd_sum << '\n';
 
     return 0;
 }
