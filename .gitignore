@@ -1,11 +1,8 @@
-# Exclude CLion IDE specific files
+# Build artifacts
 .idea/
-
-# CMake build artifacts (for CLion IDE)
-cmake-build-*/
-
-# VS Code local settings
 .vscode/
+build/
+cmake-build-*/
 
 # Binaries
 *.exe
